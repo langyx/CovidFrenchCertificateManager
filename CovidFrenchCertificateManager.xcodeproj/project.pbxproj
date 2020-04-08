@@ -10,10 +10,22 @@
 		0EA06F05243D3F7100B26234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA06F04243D3F7100B26234 /* AppDelegate.swift */; };
 		0EA06F07243D3F7100B26234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA06F06243D3F7100B26234 /* SceneDelegate.swift */; };
 		0EA06F0A243D3F7100B26234 /* CovidFrenchCertificateManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EA06F08243D3F7100B26234 /* CovidFrenchCertificateManager.xcdatamodeld */; };
-		0EA06F0C243D3F7100B26234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA06F0B243D3F7100B26234 /* ContentView.swift */; };
 		0EA06F0E243D3F7300B26234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA06F0D243D3F7300B26234 /* Assets.xcassets */; };
 		0EA06F11243D3F7300B26234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA06F10243D3F7300B26234 /* Preview Assets.xcassets */; };
 		0EA06F14243D3F7300B26234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA06F12243D3F7300B26234 /* LaunchScreen.storyboard */; };
+		0EA06F1C243D40BD00B26234 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA06F1B243D40BD00B26234 /* MainApp.swift */; };
+		0EF218E8243D42690099CC3B /* EditingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218E7243D42690099CC3B /* EditingMainView.swift */; };
+		0EF218EA243D428F0099CC3B /* ScanningMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218E9243D428F0099CC3B /* ScanningMainView.swift */; };
+		0EF218ED243D42ED0099CC3B /* StylesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218EC243D42ED0099CC3B /* StylesExtension.swift */; };
+		0EF218F1243D44390099CC3B /* People+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218EF243D44390099CC3B /* People+CoreDataClass.swift */; };
+		0EF218F2243D44390099CC3B /* People+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218F0243D44390099CC3B /* People+CoreDataProperties.swift */; };
+		0EF218F4243D452F0099CC3B /* EditingAddProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218F3243D452F0099CC3B /* EditingAddProfileView.swift */; };
+		0EF218F8243D4CCB0099CC3B /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218F7243D4CCB0099CC3B /* WebViewModel.swift */; };
+		0EF218FA243D4D050099CC3B /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218F9243D4D050099CC3B /* SwiftUIWebView.swift */; };
+		0EF218FC243D4D6A0099CC3B /* EditingGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218FB243D4D6A0099CC3B /* EditingGenerationView.swift */; };
+		0EF218FE243D4DF70099CC3B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218FD243D4DF70099CC3B /* Constant.swift */; };
+		0EF21900243D73540099CC3B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF218FF243D73540099CC3B /* ScannerViewController.swift */; };
+		0EF21902243D73AD0099CC3B /* QRCodeScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF21901243D73AD0099CC3B /* QRCodeScan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +33,23 @@
 		0EA06F04243D3F7100B26234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA06F06243D3F7100B26234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EA06F09243D3F7100B26234 /* CovidFrenchCertificateManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CovidFrenchCertificateManager.xcdatamodel; sourceTree = "<group>"; };
-		0EA06F0B243D3F7100B26234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EA06F0D243D3F7300B26234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA06F10243D3F7300B26234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EA06F13243D3F7300B26234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA06F15243D3F7300B26234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA06F1B243D40BD00B26234 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		0EF218E7243D42690099CC3B /* EditingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingMainView.swift; sourceTree = "<group>"; };
+		0EF218E9243D428F0099CC3B /* ScanningMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningMainView.swift; sourceTree = "<group>"; };
+		0EF218EC243D42ED0099CC3B /* StylesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesExtension.swift; sourceTree = "<group>"; };
+		0EF218EF243D44390099CC3B /* People+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0EF218F0243D44390099CC3B /* People+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0EF218F3243D452F0099CC3B /* EditingAddProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingAddProfileView.swift; sourceTree = "<group>"; };
+		0EF218F7243D4CCB0099CC3B /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		0EF218F9243D4D050099CC3B /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		0EF218FB243D4D6A0099CC3B /* EditingGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingGenerationView.swift; sourceTree = "<group>"; };
+		0EF218FD243D4DF70099CC3B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0EF218FF243D73540099CC3B /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		0EF21901243D73AD0099CC3B /* QRCodeScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +82,12 @@
 		0EA06F03243D3F7100B26234 /* CovidFrenchCertificateManager */ = {
 			isa = PBXGroup;
 			children = (
+				0EF218F5243D4CAF0099CC3B /* UIKit */,
+				0EF218EE243D44280099CC3B /* Data */,
+				0EF218EB243D42DB0099CC3B /* Core */,
+				0EA06F1D243D40C300B26234 /* UI */,
 				0EA06F04243D3F7100B26234 /* AppDelegate.swift */,
 				0EA06F06243D3F7100B26234 /* SceneDelegate.swift */,
-				0EA06F0B243D3F7100B26234 /* ContentView.swift */,
 				0EA06F0D243D3F7300B26234 /* Assets.xcassets */,
 				0EA06F12243D3F7300B26234 /* LaunchScreen.storyboard */,
 				0EA06F15243D3F7300B26234 /* Info.plist */,
@@ -76,6 +103,79 @@
 				0EA06F10243D3F7300B26234 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EA06F1D243D40C300B26234 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0EA06F1F243D40D200B26234 /* Scanning */,
+				0EA06F1E243D40CA00B26234 /* Editing */,
+				0EA06F1B243D40BD00B26234 /* MainApp.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0EA06F1E243D40CA00B26234 /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218E7243D42690099CC3B /* EditingMainView.swift */,
+				0EF218F3243D452F0099CC3B /* EditingAddProfileView.swift */,
+				0EF218FB243D4D6A0099CC3B /* EditingGenerationView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		0EA06F1F243D40D200B26234 /* Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				0EF21903243D73B10099CC3B /* Bridge */,
+				0EF218E9243D428F0099CC3B /* ScanningMainView.swift */,
+			);
+			path = Scanning;
+			sourceTree = "<group>";
+		};
+		0EF218EB243D42DB0099CC3B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218EC243D42ED0099CC3B /* StylesExtension.swift */,
+				0EF218FD243D4DF70099CC3B /* Constant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0EF218EE243D44280099CC3B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218EF243D44390099CC3B /* People+CoreDataClass.swift */,
+				0EF218F0243D44390099CC3B /* People+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0EF218F5243D4CAF0099CC3B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218F6243D4CB50099CC3B /* WebView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0EF218F6243D4CB50099CC3B /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218F7243D4CCB0099CC3B /* WebViewModel.swift */,
+				0EF218F9243D4D050099CC3B /* SwiftUIWebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		0EF21903243D73B10099CC3B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				0EF218FF243D73540099CC3B /* ScannerViewController.swift */,
+				0EF21901243D73AD0099CC3B /* QRCodeScan.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +250,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA06F05243D3F7100B26234 /* AppDelegate.swift in Sources */,
+				0EF218FC243D4D6A0099CC3B /* EditingGenerationView.swift in Sources */,
+				0EF218F2243D44390099CC3B /* People+CoreDataProperties.swift in Sources */,
 				0EA06F0A243D3F7100B26234 /* CovidFrenchCertificateManager.xcdatamodeld in Sources */,
-				0EA06F0C243D3F7100B26234 /* ContentView.swift in Sources */,
+				0EF218ED243D42ED0099CC3B /* StylesExtension.swift in Sources */,
+				0EA06F1C243D40BD00B26234 /* MainApp.swift in Sources */,
+				0EF218F4243D452F0099CC3B /* EditingAddProfileView.swift in Sources */,
+				0EF218FE243D4DF70099CC3B /* Constant.swift in Sources */,
 				0EA06F07243D3F7100B26234 /* SceneDelegate.swift in Sources */,
+				0EF218FA243D4D050099CC3B /* SwiftUIWebView.swift in Sources */,
+				0EF218F8243D4CCB0099CC3B /* WebViewModel.swift in Sources */,
+				0EF218EA243D428F0099CC3B /* ScanningMainView.swift in Sources */,
+				0EF218F1243D44390099CC3B /* People+CoreDataClass.swift in Sources */,
+				0EF21900243D73540099CC3B /* ScannerViewController.swift in Sources */,
+				0EF21902243D73AD0099CC3B /* QRCodeScan.swift in Sources */,
+				0EF218E8243D42690099CC3B /* EditingMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +405,7 @@
 				DEVELOPMENT_TEAM = Z8G4WGHU95;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CovidFrenchCertificateManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +426,7 @@
 				DEVELOPMENT_TEAM = Z8G4WGHU95;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CovidFrenchCertificateManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
